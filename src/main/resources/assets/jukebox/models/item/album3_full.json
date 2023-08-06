@@ -1,0 +1,6 @@
+{
+  "parent": "jukebox:item/album",
+  "textures": {
+    "layer0": "jukebox:item/album3_full"
+  }
+}

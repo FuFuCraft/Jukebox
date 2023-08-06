@@ -1,0 +1,22 @@
+{
+  "parent": "jukebox:item/album",
+  "textures": {
+    "layer0": "jukebox:item/album2_item"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "jukebox:playing": 0,
+        "jukebox:drop": 1
+      },
+      "model": "jukebox:item/album2_full"
+    },
+    {
+      "predicate": {
+        "jukebox:playing": 1,
+        "jukebox:drop": 0
+      },
+      "model": "jukebox:item/album2_full_playing"
+    }
+  ]
+}

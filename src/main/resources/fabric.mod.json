@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "jukebox",
+  "version": "${version}",
+  "name": "Jukebox",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/FuFuCraft/Jukebox"
+  },
+  "license": "MIT",
+  "icon": "assets/jukebox/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.abstruck.fabric.fufucraft.jukebox.client.JukeboxClient"
+    ],
+    "main": [
+      "org.abstruck.fabric.fufucraft.jukebox.Jukebox"
+    ],
+    "fabric-datagen": [
+      "org.abstruck.fabric.fufucraft.jukebox.Jukebox"
+    ]
+  },
+  "mixins": [
+    "jukebox.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "jukebox:album1",
+    "jukebox:album2",
+    "jukebox:album3",
+    "jukebox:album4",
+    "jukebox:album5",
+    "jukebox:album6",
+    "jukebox:album7",
+    "jukebox:album8"
+  ]
+}
